@@ -39,20 +39,25 @@
 #     print('Некоректна операція')
 
 
-sum = float(input('сума: '))
-v = input('валюта: ')
-kurs = float(input('курс: '))
-if v == "євро":
-    print(f'{sum / kurs}')
-elif v == 'гривні':
-    print(f'{sum / kurs}')
-elif v == 'фунти':
-    print(f'{sum / kurs}')
-else:
-    print('Error')
+# sum = float(input('сума: '))
+# v = input('валюта: ')
+# kurs = float(input('курс: '))
+# if v == "євро":
+#     print(f'{sum / kurs}')
+# elif v == 'гривні':
+#     print(f'{sum / kurs}')
+# elif v == 'фунти':
+#     print(f'{sum / kurs}')
+# else:
+#     print('Error')
 
 
-
+sec = float(input('Введіть: '))
+t = input('введіть: ')
+if t == 'години':
+    print(f'{24 - sec / 60 / 60}')
+elif t == 'хвилини':
+    print(f'{24 - sec / 60}')
 
 
 
