@@ -38,6 +38,43 @@
 #     print('Некоректна операція')
 
 
+# number = int(input("число від 5 до 1: "))
+# if number == 1:
+#     print("Дуже погано.")
+# elif number == 2:
+#     print('Погано.')
+# elif number == 3:
+#     print('Задовільно.')
+# elif number == 4:
+#     print('Добре.')
+# elif number == 5:
+#     print('Відмінно.')
+# else:
+#     print('нету такой оценки')
+
+metr = float(input('метры: '))
+option = input('милі, дюйми, ярди чи усе разом, сантиметри,  кілометри:')
+if option == 'милі':
+    print(f'{metr / 1600}')
+elif option == 'дюйми':
+    print(f'{metr * 40}')
+elif option == 'ярди':
+    print(f'{metr * 1.1}')
+elif option == 'усе разом':
+    print(f'{metr / 1600}')
+    print(f'{metr * 40}')
+    print(f'{metr * 1.1}')
+elif option == 'сантиметри':
+    print(f'{metr * 100}')
+elif option == 'кілометри':
+    print(f'{metr / 1000}')
+else:
+    print('error')
+
+
+
+
+
 
 
 
