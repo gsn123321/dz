@@ -90,8 +90,11 @@
 # else:
 #     print('Некоректна операція')
 
-
-
+# number = int(input('число: '))
+# if number == 111 or 222 or 333 or 444 or 555 or 666 or 777 or 888 or 999:
+#     print('Всі цифри однакові')
+# else:
+#     print('Цифри різні')
 
 
 
