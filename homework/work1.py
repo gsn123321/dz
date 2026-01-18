@@ -28,21 +28,44 @@ else:
 
 
 
+# day = int(input("номер дня тижня: "))
+
+
+
+# match day:
+#     case 1: print("понеділок")
+#     case 2: print("вівторок")
+#     case 3: print("сіріда")
+#     case 4: print("четверг")
+#     case 5: print("п/'ятниця")
+#     case 6: print("суббота")
+#     case 7: print("неділя")
+#     case _: print("ашибка")
+
+month = int(input("month: "))
 day = int(input("номер дня тижня: "))
 
-
-
 match day:
-    case 1: print("понеділок")
-    case 2: print("вівторок")
-    case 3: print("сіріда")
-    case 4: print("четверг")
-    case 5: print("п/'ятниця")
-    case 6: print("суббота")
-    case 7: print("неділя")
+    case 1 | 2 | 3 | 4 | 5 if month == 12:
+        print("будній в грудні")
+    case 1 | 2 | 3 | 4 | 5 if month == 1:
+        print("будній в січні")
+    case 6 | 7 if month == 12:
+        print("вихідний день в грудні")
+    case 6 | 7 if month == 1:
+        print("вихідний в січні")
 
 
 
+
+
+
+# match month:
+#     case 12 | 1 | 2: print("зима")
+#     case 3 | 4 | 5: print("весна")
+#     case 6 | 7 | 8: print("літо")
+#     case 9 | 10| 11: print("осінь")
+#     case _: print("неа")
 
 # if day == 1:
 #     print("понеділок")
