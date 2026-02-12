@@ -30,13 +30,13 @@
 # count = text.replace(word, word1)
 # print(count)
 
-text = input(": ")
-words = text.split()
-word1 = ""
-for i in words:
-    if len(i) > len(word1):
-        word1 = i
-print(word1)
+# text = input(": ")
+# words = text.split()
+# word1 = ""
+# for i in words:
+#     if len(i) > len(word1):
+#         word1 = i
+# print(word1)
 
 
 
