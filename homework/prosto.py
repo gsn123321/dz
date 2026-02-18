@@ -1,6 +1,5 @@
-def HelloWorld():
-    print('')
-HelloWorld()
+def HelloWorld(print):
+    print('Hello world')
 
 
 
@@ -10,7 +9,7 @@ HelloWorld()
 
 
 
-
+HelloWorld(print)
 
 
 
