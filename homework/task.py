@@ -18,30 +18,30 @@
 #         d = f
 # print(f'число{d}')
 
-# import random
-# random_number = random.randint(1, 501)
-# a = 0
-# while True:
-#     number = int(input("Число: "))
-#     if number == 0:
-#         break 
-#     a += 1
-#     if number < random_number:
-#         print("меньше")
-#     elif number > random_number:
-#         print("Більш9е")
-#     else:
-#         print(f"Наконецто, {a} спроб")
-#         break
+import random
+random_number = random.randint(1, 501)
+a = 0
+while True:
+    number = int(input("Число: "))
+    if number == 0:
+        break 
+    a += 1
+    if number < random_number:
+        print("меньше")
+    elif number > random_number:
+        print("Більше")
+    else:
+        print(f"Наконецто, {a} спроб")
+        break
 
-type1 = input("Квадрат чи прямокутник: ")
-s = input("Символ: ")
-if type1 == 'квадрат':
-    w = int(input("см: "))
-    for i in range(w):
-        print(s * w)
-elif type1 == 'прямокутник':
-    w1 = int(input("см: "))
-    d = int(input("см: "))
-    for i in range(w1):
-        print(s * d)
+# type1 = input("Квадрат чи прямокутник: ")
+# s = input("Символ: ")
+# if type1 == 'квадрат':
+#     w = int(input("см: "))
+#     for i in range(w):
+#         print(s * w)
+# elif type1 == 'прямокутник':
+#     w1 = int(input("см: "))
+#     d = int(input("см: "))
+#     for i in range(w1):
+#         print(s * d)
