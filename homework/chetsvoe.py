@@ -13,6 +13,8 @@ def btn_click():
     else:
     # окно с ошибкой
         messagebox.showerror(title="", message="Er")
+
+        
 root["bg"] = '#fafafa' 
 root.title('мое приложение')
 root.wm_attributes('-alpha', 0.7)

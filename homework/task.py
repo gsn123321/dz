@@ -27,9 +27,9 @@ while True:
         break 
     a += 1
     if number < random_number:
-        print("меньше")
+        print("більше")
     elif number > random_number:
-        print("Більше")
+        print("меньше")
     else:
         print(f"Наконецто, {a} спроб")
         break
