@@ -3,15 +3,16 @@ from tkinter import messagebox
 root = Tk()
 
 def btn_click():
+    
     print('Hello world!')
     login = loginInput.get()
     password = passField.get()
-
-    info_str = f"Данні: {str(login)}, {str(password)} " 
-    messagebox.showinfo(title="Назва", message=info_str)
-
+    if login != "":
+        info_str = f"Данні: {str(login)}, {str(password)} " 
+        messagebox.showinfo(title="Назва", message=info_str)
+    else:
     # окно с ошибкой
-    messagebox.showerror(title="", message="Er")
+        messagebox.showerror(title="", message="Er")
 root["bg"] = '#fafafa' 
 root.title('мое приложение')
 root.wm_attributes('-alpha', 0.7)
