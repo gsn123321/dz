@@ -91,8 +91,8 @@
 # if text.endswith("!"):
 #     print("Це вигук")
 
-# print("lemon">"apple")
-# print("h">"H")
+# print("lemon">"Apple")
+# print("#">"%")
 
 # text = '\tHello world!    \n '
 # text = text.strip()
