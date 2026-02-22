@@ -37,11 +37,11 @@
 
 # }
 
-# contacts = {
-#     'Антон': '0506959068',
-#     'Ліза': '0474838458',
-#     'Сергій': '0550404033'
-# }
+contacts = {
+    'Антон': '0506959068',
+    'Ліза': '0474838458',
+    'Сергій': '0550404033'
+}
 
 # print(contacts['Ліза'])
 # contacts['Сергій'] = '0650499596'
@@ -52,12 +52,12 @@
 
 # contacts.update({'Антон': '0670450044', 'Тимофій': '0897477744'})
 
-# for i in contacts:
-#     print(f'{i}: {contacts[i]}')
-# contacts_copy = contacts.copy()
-# contacts_copy['Тимур'] = '0560985342'
-# for i in contacts:
-#     print(f"{i}: {contacts[i]}")
+for i in contacts:
+    print(f'{i}: {contacts[i]}')
+contacts_copy = contacts.copy()
+contacts_copy['Тимур'] = '0560985342'
+for i in contacts:
+    print(f"{i}: {contacts[i]}")
 
 
 
@@ -74,15 +74,16 @@
 # print(contacts.values())
 # print(contacts.items())
 
-# contacts.pop('Настя')
-# contacts.popitem()
-# contacts.clear()
+contacts.pop('Антон')
+print(contacts)
+contacts.popitem()
+contacts.clear()
 
 
 
 
-first = {'apple', 'mango', 'cherry', 'kiwi'}
-second = {'mango' , 'pamelo', 'kiwi', 'oreange'}
+# first = {'apple', 'mango', 'cherry', 'kiwi'}
+# second = {'mango' , 'pamelo', 'kiwi', 'oreange'}
 
 # frozen_food = frozenset(first | second)
 
@@ -91,14 +92,14 @@ second = {'mango' , 'pamelo', 'kiwi', 'oreange'}
 
 # frozen_food.add('watermelon') # не будет работать
 
-sym_diff = first.symmetric_difference(second)
-sym_diff = first ^ second # оператор XOR
-print(sym_diff)
-first.symmetric_difference_update(second)
+# sym_diff = first.symmetric_difference(second)
+# sym_diff = first ^ second # оператор XOR
+# print(sym_diff)
+# first.symmetric_difference_update(second)
 
-difference = first.difference(second)
-difference = first - second
-print(difference)
+# difference = first.difference(second)
+# difference = first - second
+# print(difference)
 
 # first.difference_update(second)
 
