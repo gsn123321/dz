@@ -36,15 +36,15 @@
 
 def sum(a):
     num = str(a)
-    sum1 = int(a[0]) + int(a[1]) + int(a[2])
-    sum2 = int(a[3]) + int(a[4]) + int(a[5])
+    sum1 = int(num[0]) + int(num[1]) + int(num[2])
+    sum2 = int(num[3]) + int(num[4]) + int(num[5])
     if sum1 != sum2:
         return False
     elif sum1 == sum2:
         return True
     else:return 'ni'
 
-print(sum(123456))
+print(sum(123312))
 
 
 
