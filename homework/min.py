@@ -1,7 +1,7 @@
 import console_ui
 
 def main():
-    console_ui.draw_header("🎮 Ласкаво просимо в гру")
+    console_ui.draw_header("Ласкаво просимо в гру")
 
     options = [
         "Почати гру",
